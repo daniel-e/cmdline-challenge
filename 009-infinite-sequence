@@ -1,0 +1,4 @@
+'''
+tr \\0 \\n < /dev/zero | cat -n
+cat -n <(while echo; do :; done)
+'''
